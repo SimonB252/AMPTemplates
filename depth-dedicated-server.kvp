@@ -75,7 +75,6 @@ Meta.MetaConfigManifest=depth-dedicated-servermetaconfig.json
 Meta.ConfigRoot=depth-dedicated-server.kvp
 App.RootDir=./depth-dedicated-server/
 Meta.DisplayImageSource=steam:274940
-App.BaseDirectory=./depth-dedicated-server/274940/
 App.BaseDirectory=./depth-dedicated-server/
 App.ExecutableWin=Binaries/Win64/DepthServer.exe
 App.ExecutableLinux=Binaries/Win64/DepthServer.exe
