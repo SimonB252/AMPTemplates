@@ -1,9 +1,9 @@
 [
     {
-        "DisplayName": "Default Map",
+        "DisplayName": "Starting Map",
         "Category": "Server Settings",
         "Description": "",
-        "Keywords": "default,map",
+        "Keywords": "starting,map",
         "FieldName": "MapName",
         "InputType": "text",
         "IsFlagArgument": false,
@@ -17,17 +17,17 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Game Mode Override",
+        "DisplayName": "Game Mode",
         "Category": "Server Settings",
         "Description": "",
-        "Keywords": "game,mode,override",
+        "Keywords": "game,mode",
         "FieldName": "GameMode",
         "InputType": "text",
         "IsFlagArgument": false,
         "ParamFieldName": "GameMode",
         "IncludeInCommandLine": false,
-        "DefaultValue": "DepthGame.DPGameInfo",
-        "Placeholder": "DepthGame.DPGameInfo",
+        "DefaultValue": "DepthGame.TG_GameInfo",
+        "Placeholder": "DepthGame.TG_GameInfo",
         "Suffix": "",
         "Hidden": false,
         "SkipIfEmpty": false,
@@ -51,10 +51,10 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "LAN Only Match",
+        "DisplayName": "LAN Match",
         "Category": "Server Settings",
         "Description": "",
-        "Keywords": "lan,only,match",
+        "Keywords": "lan,match",
         "FieldName": "IsLanMatch",
         "InputType": "enum",
         "IsFlagArgument": false,
@@ -66,8 +66,8 @@
         "Hidden": false,
         "SkipIfEmpty": false,
         "EnumValues": {
-            "true": "Yes",
-            "false": "No"
+            "false": "No",
+            "true": "Yes"
         }
     }
 ]

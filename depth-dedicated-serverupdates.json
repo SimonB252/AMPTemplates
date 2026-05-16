@@ -1,9 +1,10 @@
 [
     {
-        "UpdateStageName": "Fetch Server Files",
+        "UpdateStageName": "Downloading Depth Dedicated Server",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "274940",
+        "UpdateSourceArgs": "274940 +login",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "ForceDownloadPlatform": "Windows",
