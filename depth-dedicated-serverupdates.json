@@ -4,9 +4,9 @@
         "UpdateSourcePlatform": "All",
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "274940",
-        "UpdateSourceArgs": "274940",
+        "UpdateSourceArgs": "+force_install_dir ./",
         "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
+        "OverwriteExistingFiles": true,
         "ForceDownloadPlatform": "Windows",
         "DeleteAfterExtract": true,
         "OneShot": false
