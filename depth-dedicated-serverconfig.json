@@ -1,0 +1,73 @@
+[
+    {
+        "DisplayName": "Default Map",
+        "Category": "Server Settings",
+        "Description": "",
+        "Keywords": "default,map",
+        "FieldName": "MapName",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "MapName",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "Cove",
+        "Placeholder": "Cove",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Game Mode Override",
+        "Category": "Server Settings",
+        "Description": "",
+        "Keywords": "game,mode,override",
+        "FieldName": "GameMode",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "GameMode",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "DepthGame.DPGameInfo",
+        "Placeholder": "DepthGame.DPGameInfo",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Max Players",
+        "Category": "Server Settings",
+        "Description": "",
+        "Keywords": "max,players",
+        "FieldName": "MaxPlayers",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "MaxPlayers",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "6",
+        "Placeholder": "6",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "LAN Only Match",
+        "Category": "Network",
+        "Description": "",
+        "Keywords": "lan,only,match",
+        "FieldName": "IsLanMatch",
+        "InputType": "enum",
+        "IsFlagArgument": false,
+        "ParamFieldName": "IsLanMatch",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "false",
+        "Placeholder": "false",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {
+            "true": "Yes",
+            "false": "No"
+        }
+    }
+]

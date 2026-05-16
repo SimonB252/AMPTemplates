@@ -1,0 +1,12 @@
+[
+    {
+        "UpdateStageName": "Fetch Server Files",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "274940",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    }
+]
