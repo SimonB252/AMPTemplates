@@ -1,6 +1,6 @@
 [
     {
-        "ConfigFile": "274940/DepthGame/Config/DefaultEngine.ini",
+        "ConfigFile": "DepthGame/Config/DefaultEngine.ini",
         "ConfigType": "ini",
         "AutoMap": true
     }
