@@ -52,7 +52,7 @@
     },
     {
         "DisplayName": "LAN Only Match",
-        "Category": "Network",
+        "Category": "Server Settings",
         "Description": "",
         "Keywords": "lan,only,match",
         "FieldName": "IsLanMatch",

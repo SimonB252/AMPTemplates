@@ -1,5 +1,5 @@
 Meta.DisplayName=Depth Dedicated Server
-Meta.Description=Dedicated server template for Depth - the multiplayer shark vs diver game.
+Meta.Description=Depth
 Meta.Arch=x86_64
 Meta.Author=SimonB252 - Made with AMP Config Generator
 Meta.URL=https://store.steampowered.com/app/274940/Depth/
@@ -10,7 +10,7 @@ Meta.ContainerPolicy=Supported
 Meta.ContainerPolicyReason=
 Meta.Prerequsites=[]
 Meta.EndpointURIFormat=steam://connect/{ip}:{GenericModule.App.Ports.$SteamQueryPort}
-Meta.AppConfigId=98dd93e9-3804-479e-8c82-5cf22370c472
+Meta.AppConfigId=8ddb228f-4254-429a-a42c-96aafa3e545b
 App.AdminMethod=STDIO
 App.HasReadableConsole=true
 App.HasWritableConsole=false
@@ -73,7 +73,7 @@ Meta.ConfigManifest=depth-dedicated-serverconfig.json
 Meta.MetaConfigManifest=depth-dedicated-servermetaconfig.json
 Meta.ConfigRoot=depth-dedicated-server.kvp
 App.RootDir=./depth-dedicated-server/
-Meta.DisplayImageSource=url:
+Meta.DisplayImageSource=url:https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/274940/7a93e49dbb6612db3c42542301146240c6f67965/header.jpg?t=1763685233
 App.BaseDirectory=./depth-dedicated-server/serverfiles/
 App.WorkingDir=serverfiles
 App.ExecutableWin=serverfiles\Binaries\Win32\DepthServer.exe
